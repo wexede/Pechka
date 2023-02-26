@@ -1,0 +1,147 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+h1 {
+    user-select: none;
+    font-family: 'Montserrat';
+    font-size: 64px;
+    width: 410px;
+    padding-bottom: 24px;
+}
+p {
+    font-family: 'SF pro text';
+    font-size: 32px;
+    width: 620px;
+    padding-bottom: 32px;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header{
+    position: fixed;
+    height: 130px;
+}
+.logo {
+    padding-left: 24px;
+    width: 196px;
+}
+a.headerLinks {
+    text-decoration: none;
+    padding-left: 50px;
+    font-size: 24px;
+    font-family: 'Montserrat';
+}
+a:visited {
+    /* Цвет посещённой ссылки */
+    color: black;
+  }
+  
+  a:active {
+    /* Цвет ссылки при клике */
+    color: black;
+  }
+
+a.linksInTheDesctription {
+    font-family: 'SF pro text';
+    font-size: 32px;
+    width: 620px;
+    padding-bottom: 32px;
+    text-decoration: none;
+}
+p.Promo {
+    user-select: none;
+    color: white;
+    font-family: 'SF pro text';
+    font-size: 18px;
+    width: 230px;
+    padding-bottom: 10px; 
+}
+h3 {
+    user-select: none;
+    color: white;
+    padding-top: 5px;
+    width: 154px;
+    padding-bottom: 10px;
+    font-family: 'Montserrat';
+    font-size: 22.5px;
+}
+
+.FirstObject {
+    padding-top: 150px;
+    height: 1080px;
+    margin-top: 50px;
+    margin-left: 400px;
+    width: 1200px;
+    display: grid;
+    grid-template-columns: 660px 540px;
+}
+.firstPromoBlock {
+    overflow: hidden;
+    border-radius: 25px;
+    background-color: #C38F71;
+    display: grid;
+    grid-template-columns: 240px 300px;
+    height: 240px;
+    margin-bottom: 30px;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.211);
+
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+}
+.firstPromoBlock:hover {
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.103);
+    scale: 105%;
+}
+.secondPromoBlock {
+    overflow: hidden;
+    border-radius: 25px;
+    background-color: #F0C470;
+    display: grid;
+    grid-template-columns: 240px 300px;
+    height: 240px;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.211);
+
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+}
+.secondPromoBlock:hover {
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.103);
+    scale: 105%;
+}
+h3.beforeDiscount {
+    color: white;
+    padding: 0px;
+    margin: 0px;
+
+    text-decoration: line-through;
+}
+h3.afterDiscount {
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    font-size: 35px;
+}
+
+div.promoImage1 {
+    background-color: #F0E8D2;
+}
+div.promoImage2 {
+    background-color: #FFF5D0;
+}
+
+img.promoImage {
+    height: 240px;
+}
+.Description {
+    margin-left: 20px;
+}
+a {
+    cursor: pointer;
+}
